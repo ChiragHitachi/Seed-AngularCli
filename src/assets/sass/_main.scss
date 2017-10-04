@@ -1,0 +1,144 @@
+
+/*@import "corsys_components/_modal_component";*/
+body {
+    font-family: "ProximaSoft-Regular";
+    font-size: 16px;
+    line-height: 1.25;
+    color: #443b3b;
+    background-color: #fff;
+}
+
+h3, h4, h5 {
+    font-family: ProximaSoft-Regular;
+    font-weight: 600;
+}
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 18px;
+}
+label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #443b3b;
+    line-height: 1.25;
+    display: block;
+}
+.body-text, .body-text-bold, a, .tooltip {
+    font-family: ProximaNova-Regular;
+}
+.body-text, .body-text-bold {
+    font-size: 16px;
+    line-height: 1.25;
+    color: #443b3b;
+}
+.body-text {
+   font-weight: normal;
+}
+.body-text-bold {
+    font-weight: bold;
+}
+a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #299ed9;
+}
+
+.tooltip {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.chart-title {
+    color: #1e6e96;
+}
+
+.alert-background {
+    width: 20px;
+    height: 20px;
+    background-color: #ca3a3a;
+    border-radius: 1em;
+    padding: 0 0.2em;
+    z-index: 1;
+    top: 19px;
+    position: absolute;
+    float: left;
+    left: 86%;
+    overflow: hidden;
+
+    .tab-alert-number {
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+        color: #ffffff;
+        line-height: 1;
+    }
+}
+
+
+
+.notes {
+    position: fixed;
+    top: 20px;
+    left: 130px;
+    z-index: 5;
+    width: 79.2px;
+    height: 26px;
+    background-color: #414042;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3), 0 0 4px 0 rgba(0, 0, 0, 0.3);
+
+    &::after {
+        content: '';
+        display: block;
+        position: fixed;
+        width: 0px;
+        height: 0px;
+        top: 50px;
+        left: 115px;
+
+    }
+
+    p {
+        width: 61px;
+        height: 17px;
+        font-family: ProximaNova;
+        font-size: 14px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+}
+.menu-title {
+    width: 300px;
+    height: 56px;
+    background-color: #299ed9;
+}
+
+.notify-badge {
+    position: relative;
+    background: rgba(0,0,255,1);
+    height: 2rem;
+    top: 1rem;
+    left: 1.5rem;
+    width: 4rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1rem;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid blue;
+}
+/**Table grid styles**/
+
+table tr td:nth-child(1), table tr th:nth-child(1) {
+    padding-left: 2em !important;
+    padding-top: 2em !important;
+    text-align: center;
+}
+

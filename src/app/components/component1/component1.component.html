@@ -1,0 +1,13 @@
+﻿
+<div class="row">
+    <sp3-comp-child [title]="title" (reply)="handleReply($event)"></sp3-comp-child>
+</div>
+<div class="row">
+    <div class="col-lg-5">
+        <h1>{{message}}</h1>
+    </div>
+
+    <div class="col-lg-5">
+        <button (click)="handleClick()">Click Me</button>
+    </div>
+</div>
